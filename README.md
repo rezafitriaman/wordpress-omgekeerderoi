@@ -1,2 +1,2 @@
 # wordpress-omgekeerderoi
-Dit is de wordpress-versie van omgekeerderoi
+Dit is de wordpress-versie van omgekeerderoi.nl
