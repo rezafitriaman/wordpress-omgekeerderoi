@@ -1,0 +1,16 @@
+Ik heb samen met twee developers een mooie opdracht bedacht. Relatief klein, maar we hopen
+dat je er wel lekker mee uit de voeten kunt. Graag willen het volgende door jou laten uitvoeren:
+ 
+www.OmgekeerdeROI.nl (deze website is van mij persoonlijk)
+ 
+Graag willen we dat je de tool in een nieuw design omzet en vooral responsive maakt, als extra
+willen we graag dat je het maakt met de volgende toepassingen:
+ 
+-        Gebruik van Twitter Bootstrap (GetBootstrap.com)
+
+-        Gebruik van SASS (wij werken alles uit in SASS, http://sass-lang.com/install)
+
+-        Publiceren op GitHub (https://github.com/)
+
+ 
+Daarnaast zouden we graag willen dat je de velden koppelt aan Wordpress, kan minimalistisch.
