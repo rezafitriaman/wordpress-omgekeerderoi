@@ -1,24 +1,29 @@
 /*
 
-	OmgekeerdeROI.nl met Sass en Bootstrap Theme
-	Author:	Reza Fitriaman
-	Version:	0.0.1
+  OmgekeerdeROI.nl met Sass en Bootstrap Theme
+  Author: Reza Fitriaman
+  Version:  0.0.1
 
 */
 /* LAYOUTS - Page layouts styles */
-/* line 1, ../scss/layouts/_colour.scss */
+/* line 1, ../scss/layouts/_color.scss */
 .bg-color-dark {
   background-color: #272727;
 }
 
-/* line 5, ../scss/layouts/_colour.scss */
+/* line 5, ../scss/layouts/_color.scss */
 .bg-color-green {
   background-color: lightgreen;
 }
 
-/* line 9, ../scss/layouts/_colour.scss */
+/* line 9, ../scss/layouts/_color.scss */
 .color-white {
   color: white;
+}
+
+/* line 12, ../scss/layouts/_color.scss */
+.color-red {
+  color: red;
 }
 
 /* line 1, ../scss/layouts/_jumbotron.scss */
@@ -28,22 +33,6 @@
   background-size: 100% auto;
   margin-botom: 0px;
   min-height: 500px;
-}
-
-/* line 9, ../scss/layouts/_jumbotron.scss */
-.name {
-  display: block;
-  text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 2em;
-  font-weight: 700;
-}
-
-/* line 17, ../scss/layouts/_jumbotron.scss */
-.intro-text {
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 1.25em;
-  font-weight: 300;
 }
 
 /* line 1, ../scss/layouts/_margin.scss */
@@ -111,15 +100,15 @@
 
 @media all and (max-width: 1200px) {
   /* screen size until 1200px */
-  /* line 2, ../scss/layouts/_typografie.scss */
+  /* line 5, ../scss/layouts/_typografie.scss */
   body {
-    font-size: 1.5em;
+    font-size: 1.3em;
     /* 1.5x default size */
   }
 }
 @media all and (max-width: 1000px) {
   /* screen size until 1000px */
-  /* line 7, ../scss/layouts/_typografie.scss */
+  /* line 10, ../scss/layouts/_typografie.scss */
   body {
     font-size: 1.2em;
     /* 1.2x default size */
@@ -127,45 +116,45 @@
 }
 @media all and (max-width: 500px) {
   /* screen size until 500px */
-  /* line 12, ../scss/layouts/_typografie.scss */
+  /* line 15, ../scss/layouts/_typografie.scss */
   body {
     font-size: 1.0em;
     /* 0.8x default size */
   }
 }
-/* line 17, ../scss/layouts/_typografie.scss */
+/* line 20, ../scss/layouts/_typografie.scss */
 .name {
   display: block;
   text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 2em;
   font-weight: 700;
 }
 
-/* line 25, ../scss/layouts/_typografie.scss */
+/* line 28, ../scss/layouts/_typografie.scss */
 .tools {
   display: block;
   text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
   font-weight: 500;
 }
 
-/* line 33, ../scss/layouts/_typografie.scss */
+/* line 36, ../scss/layouts/_typografie.scss */
 .intro-text {
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.25em;
   font-weight: 300;
 }
 
-/* line 39, ../scss/layouts/_typografie.scss */
+/* line 42, ../scss/layouts/_typografie.scss */
 .navbar {
   text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
 
-/* line 45, ../scss/layouts/_typografie.scss */
+/* line 48, ../scss/layouts/_typografie.scss */
 .woorden {
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }

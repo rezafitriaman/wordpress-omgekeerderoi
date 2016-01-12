@@ -24,228 +24,232 @@
 				
 	<!-- Modal voorbeeld berekeningen -->		
 	<div class="modal fade woorden" id="mymodal">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h3 class="text-center">Bereken Return on Investment van webshop.nl</h3>
-				</div>
-				<div class="modal-body">
-					<div class="panel panel-default">
-						<h3 class="text-center">100 Bezoekers</h3>
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h3 class="text-center">Bereken Return on Investment van webshop.nl</h3>
+							</div>
+							<div class="modal-body">
+								<div class="panel panel-default">
+									<h3 class="text-center">100.000 Bezoekers</h3>
+								</div>
+									<div class="text-center">
+										<span class="glyphicon glyphicon-arrow-down"></span>
+									</div>
+									<div class="panel-body">
+									<!-- form voorbeeld-->
+										<form>
+											<div class="form-group text-center">
+												<div class="col-md-2 col-sm-2">
+													<label for="direct" class="control-label">Direct</label>
+													<input type="text" class="form-control" id="direct" placeholder="20%"/>
+												</div>
+												<div class="col-md-2 col-sm-2">
+													<label for="google" class="control-label">Google</label>
+													<input type="text" class="form-control" id="google" placeholder="10%"/>
+												</div>
+												<div class="col-md-2 col-sm-2">
+													<label for="adwords" class="control-label">AdWords</label>
+													<input type="text" class="form-control" id="adwords" placeholder="35%"/>
+												</div>
+												<div class="col-md-2 col-sm-2">
+													<label for="verwijzende" class="control-label">Sites</label>
+													<input type="text" class="form-control" id="verwijzende" placeholder="10%"/>
+												</div>
+												<div class="col-md-2 col-sm-2">
+													<label for="overig" class="control-label">Overig</label>
+													<input type="text" class="form-control" id="overig" placeholder="15%"/>
+												</div>
+												<div class="col-md-2 col-sm-2">
+													<label for="onbetaald" class="control-label">Onbetaald</label>
+													<input type="text" class="form-control" id="onbetaald" placeholder="10%"/>
+												</div>
+											</div>
+										</form>	
+												<div class="row text-center">
+													<div class="col-md-12">
+														<span class="glyphicon glyphicon-arrow-down"></span>
+													</div>
+												</div>
+												<div class="row text-center">
+													<div class="col-md-12">
+														<h5>Betaald verkeer is 35% Adwords + 10% links <h4>(Samen 45%)</h4></h5>
+													</div>
+												</div>
+												<div class="row text-center">
+													<div class="col-md-12">
+														<span class="glyphicon glyphicon-arrow-down"></span>
+													</div>
+												</div>
+												<div class="row text-center">
+													<div class="col-md-12">
+														<h5>45% van 100.000 bezoekers is <h4>45.000 bezoekers kopen</h4></h5>
+													</div>
+												</div>
+												<div class="row text-center">
+													<div class="col-md-12">
+														<span class="glyphicon glyphicon-arrow-down"></span>
+													</div>
+												</div>
+												<div class="row text-center">
+													<div class="col-md-12">
+														<h5>Voor adwords zijn 35% van 100.000 bezoekers nodig is 35.000. Met de ingevoerde zoektermen zijn er 0 bezoekers mogelijk.</h5>
+														<h5 class="color-red"><span class="glyphicon glyphicon-remove-circle"></span> Dit is dus niet mogelijk</h5>
+													</div>
+												</div>
+										<form>
+											<div class="row text-center">
+												<div class="form-group col-md-6 col-xs-6">
+													<label for="doelstelling" class="control-label">Doel/omzet per maand</label>
+													<input type="text" class="form-control" id="doelstelling" placeholder="€ 100.000">
+												</div>
+												<div class="form-group col-md-6 col-xs-6">
+													<label for="marge" class="control-label">Marge</label>
+													<select id="marge" class="form-control">
+														<option value="text">> 15%</option>
+														<option value="text">< 15%</option>
+													</select>
+												</div>
+											</div>
+										</form>	
+										<div class="container text-center">
+											<div class="col-md-12 col-xs-12">
+												<span class="glyphicon glyphicon-arrow-down"></span>
+											</div>
+										</div>
+										<form>
+											<div class="row text-center">
+												<div class="form-group col-md-6 col-xs-6">
+													<label for="waarde" class="control-label">Gemiddelde bestel waarde</label>
+													<input type="text" class="form-control" id="waarde" placeholder="€ 100">
+												</div>
+												<div class="form-group col-md-6 col-xs-6">
+												</div>
+											</div>
+										</form>
+										<div class="container text-center">
+											<div class="row">
+												<div class="col-md-6 col-xs-6">
+													<span class="glyphicon glyphicon-arrow-down"></span>
+												</div>
+												<div class="col-md-6 col-xs-6">
+													
+												</div>
+											</div>
+										</div>
+										<form>
+											<div class="row">
+												<div class="form-group col-md-6 col-xs-6">
+													<label for="benodigde" class="control-label">Benodigde bestellingen (conversie)</label>
+													<input type="text" class="form-control" id="benodigde" placeholder="1.000">
+												</div>
+												<div class="form-group col-md-6 col-xs-6">
+												</div>
+											</div>
+										</form>
+										<div class="container text-center">
+											<div class="row">
+												<div class="col-md-6 col-xs-6">
+													<span class="glyphicon glyphicon-arrow-down"></span>
+												</div>
+												<div class="col-md-6 col-xs-6">
+													
+												</div>
+											</div>
+										</div>	
+										<form>
+											<div class="row text-center">
+												<div class="form-group col-md-6 col-xs-6">
+													<label for="conversie" class="control-label">Conversie</label>
+													<input type="text" class="form-control" id="conversie" placeholder="1%">
+												</div>
+												<div class="form-group col-md-6 col-xs-6">
+												</div>
+											</div>
+										</form>	
+										<form>
+											<div class="row text-center">
+												<div class="form-group col-md-6 col-xs-6">
+													
+												</div>
+												<div class="form-group col-md-6 col-xs-6">
+														<label for="marketing" class="control-label">Budget marketing</label>
+													<input type="text" class="form-control" id="marketing" placeholder="7,5%">
+														<h5>=<h5>
+														<input type="text" class="form-control" id="marketing" placeholder="€ 7.500">
+												</div>
+											</div>
+										</form>	
+										<div class="container text-center">
+											<div class="col-md-12 col-xs-12">
+												<span class="glyphicon glyphicon-arrow-down"></span>
+											</div>
+										</div>
+										<div class="row text-center">
+											<div class="col-md-12">
+												<h5>Gemiddelde CPC is € 7.500 / 45.000 bezoekers. <h4>€ 0,17 budget per bezoek </h4></h5>
+												<h5>De ingevoerde zoektermen hebben een gemiddeld CPC van €1</h5>
+												<h5 class="color-red"><span class="glyphicon glyphicon-remove-circle"></span> Uw budget is dus ontoereikend.</h5>
+											</div>
+										</div>
+									</div>
+									<div class="text-center">
+										<h4>Analyse zoektermen</h4>
+										<h6>Google KeyWord Tool<h6>
+									</div>
+									<form>
+										<div class="form-group text-center">
+											<div class="col-md-12 col-xs-12">
+												<label for="zoektermen1" class="control-label">Zoektermen</label>
+												<input type="text" class="form-control" id="zoektermen1" placeholder="zoekterm 1">
+											</div>
+											<div class="col-md-12 col-xs-12 padding-top-10">
+												<input type="text" class="form-control" id="zoektermen2" placeholder="zoekterm 2">
+											</div>
+											<div class="col-md-12 col-xs-12 padding-top-10">
+												
+												<input type="text" class="form-control" id="zoektermen3" placeholder="zoekterm 3">
+											</div>
+											<div class="col-md-12 col-xs-12 padding-top-10">
+												
+												<input type="text" class="form-control" id="zoektermen4" placeholder="zoekterm 4">
+											</div>
+											<div class="col-md-12 col-xs-12 padding-top-10">
+												
+												<input type="text" class="form-control" id="zoektermen5" placeholder="zoekterm 5">
+											</div>
+										</div>
+									</form>
+								<div class="row">
+									<div class="col-md-4 col-xs-4 padding-top-10">
+										<h5 class="text-center">SEO</h5>
+									</div>
+									<div class="col-md-4 col-xs-4 padding-top-10">
+										<h5 class="text-center">Gemiddelde CPC</h5>
+									</div>
+									<div class="col-md-4 col-xs-4 padding-top-10">
+										<h5 class="text-center">Geschat zoekvolume</h5>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-4 col-xs-4">
+										<h5 class="text-center"><a href="http://www.google-seo-tool.nl/?domein=webshop.nl&keyword[]=" target="_blank">Klik hier voor een uitgebreid SEO rapport</a></h5>
+									</div>
+									<div class="col-md-4 col-xs-4">
+										<h5 class="text-center">Gemiddeld CPC obv totaal zoekvolume: €1</h5>
+									</div>
+									<div class="col-md-4 col-xs-4">
+										<h5 class="text-center">Totaal geschat zoekvolume: 0</h5>
+									</div>
+								</div>
+									
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+							</div>
+						</div>
 					</div>
-						<div class="text-center">
-							<span class="glyphicon glyphicon-arrow-down"></span>
-						</div>
-						
-						<!-- form voorbeeld-->
-						<div class="panel-body">
-							<form>
-								<div class="form-group">
-									<div class="col-md-2 col-sm-2">
-										<label for="direct" class="control-label">Direct</label>
-										<input type="text" class="form-control" id="direct" placeholder="20%"/>
-									</div>
-									<div class="col-md-2 col-sm-2">
-										<label for="google" class="control-label">Google</label>
-										<input type="text" class="form-control" id="google" placeholder="10%"/>
-									</div>
-									<div class="col-md-2 col-sm-2">
-										<label for="adwords" class="control-label">AdWords</label>
-										<input type="text" class="form-control" id="adwords" placeholder="35%"/>
-									</div>
-									<div class="col-md-2 col-sm-2">
-										<label for="verwijzende" class="control-label">Verwijzende</label>
-										<input type="text" class="form-control" id="verwijzende" placeholder="10%"/>
-									</div>
-									<div class="col-md-2 col-sm-2">
-										<label for="overig" class="control-label">Overig</label>
-										<input type="text" class="form-control" id="overig" placeholder="15%"/>
-									</div>
-									<div class="col-md-2 col-sm-2">
-										<label for="onbetaald" class="control-label">Onbetaald</label>
-										<input type="text" class="form-control" id="onbetaald" placeholder="10%"/>
-									</div>
-								</div>
-							</form>	
-								<div class="row text-center">
-										<div class="col-md-12">
-											<span class="glyphicon glyphicon-arrow-down"></span>
-										</div>
-								</div>
-									<div class="row text-center">
-										<div class="col-md-12">
-											<h5>Betaald verkeer is 35% Adwords + 10% links (Samen 45%)</h5>
-										</div>
-									</div>
-									<div class="row text-center">
-										<div class="col-md-12">
-											<span class="glyphicon glyphicon-arrow-down"></span>
-										</div>
-									</div>
-									<div class="row text-center">
-										<div class="col-md-12">
-											<h5>45% van 100 bezoekers is 45 bezoekers kopen</h5>
-										</div>
-									</div>
-									<div class="row text-center">
-										<div class="col-md-12">
-											<span class="glyphicon glyphicon-arrow-down"></span>
-										</div>
-									</div>
-									<div class="row text-center">
-										<div class="col-md-12">
-											<h5>Voor adwords zijn 35% van 100.000 bezoekers nodig is 35.000. Met de ingevoerde zoektermen zijn er 0 bezoekers mogelijk.</h5>
-											<h5><span class="glyphicon glyphicon-remove-circle"></span> Dit is dus niet mogelijk</h5>
-										</div>
-									</div>
-							<form>
-								<div class="row">
-									<div class="form-group col-md-6 col-xs-6">
-										<label for="doelstelling" class="control-label">Doel/omzet per maand</label>
-										<input type="text" class="form-control" id="doelstelling" placeholder="€ 100">
-									</div>
-									<div class="form-group col-md-6 col-xs-6">
-										<label for="marge" class="control-label">Marge</label>
-											<select id="marge" class="form-control">
-												<option value="text">> 15%</option>
-												<option value="text">< 15%</option>
-											</select>
-									</div>
-								</div>
-							</form>	
-								<div class="row text-center">
-									<div class="col-md-12 col-xs-12">
-										<span class="glyphicon glyphicon-arrow-down"></span>
-									</div>
-								</div>
-							<form>
-								<div class="row">
-									<div class="form-group col-md-6 col-xs-6">
-										<label for="waarde" class="control-label">Gemiddelde bestel waarde</label>
-										<input type="text" class="form-control" id="waarde" placeholder="€ 100">
-									</div>
-									<div class="form-group col-md-6 col-xs-6">
-										
-									</div>
-								</div>
-							</form>
-							<div class="row text-center">
-								<div class="col-md-6 col-xs-6">
-									<span class="glyphicon glyphicon-arrow-down"></span>
-								</div>
-								<div class="col-md-6 col-xs-6">
-							
-								</div>
-								</div>
-							<form>
-								<div class="row">
-									<div class="form-group col-md-6 col-xs-6">
-										<label for="benodigde" class="control-label">Benodigde bestellingen(conversie)</label>
-										<input type="text" class="form-control" id="benodigde" placeholder="1">
-									</div>
-									<div class="form-group col-md-6 col-xs-6">
-												
-									</div>
-									</div>
-							</form>
-								<div class="row text-center">
-									<div class="col-md-6 col-xs-6">
-										<span class="glyphicon glyphicon-arrow-down"></span>
-									</div>
-										<div class="col-md-6 col-xs-6">
-													
-										</div>
-								</div>
-							<form>
-								<div class="row">
-									<div class="form-group col-md-6 col-xs-6">
-										<label for="conversie" class="control-label">Conversie</label>
-										<input type="text" class="form-control" id="conversie" placeholder="1%">
-									</div>
-									<div class="form-group col-md-6 col-xs-6">
-												
-									</div>
-								</div>
-							</form>	
-							<form>
-								<div class="row">
-									<div class="form-group col-md-6 col-xs-6">
-													
-									</div>
-									<div class="form-group col-md-6 col-xs-6">
-										<label for="marketing" class="control-label">Budget marketing</label>
-											<input type="text" class="form-control" id="marketing" placeholder="7,5%">
-											<h5>=</h5>
-											<input type="text" class="form-control" id="marketing" placeholder="€ 8">
-									</div>
-								</div>
-							</form>	
-								<div class="row text-center">
-									<div class="col-md-12 col-xs-12">
-										<span class="glyphicon glyphicon-arrow-down"></span>
-									</div>
-								</div>
-									<div class="row text-center">
-										<div class="col-md-12">
-											<h5>Gemiddelde CPC is € 8 / 45 bezoekers. € 0,17 budget per bezoek </h5>
-											<h5>De ingevoerde zoektermen hebben een gemiddeld CPC van €1</h5>
-											<h5><span class="glyphicon glyphicon-remove-circle"></span> Uw budget is dus ontoereikend.</h5>
-										</div>
-									</div>
-						</div> 
-						<div class="text-center">
-							<h4>Analyse zoektermen</h4>
-							<h6>Google KeyWord Tool<h6>
-						</div>
-						<form>
-							<div class="form-group">
-								<div class="col-md-12 col-xs-12">
-									<label for="zoektermen1" class="control-label">Zoektermen</label>
-										<input type="text" class="form-control" id="zoektermen1" placeholder="zoekterm 1">
-								</div>
-								<div class="col-md-12 col-xs-12 padding-top-10">
-									<input type="text" class="form-control" id="zoektermen2" placeholder="zoekterm 2">
-								</div>
-								<div class="col-md-12 col-xs-12 padding-top-10">
-									<input type="text" class="form-control" id="zoektermen3" placeholder="zoekterm 3">
-								</div>
-								<div class="col-md-12 col-xs-12 padding-top-10">
-									<input type="text" class="form-control" id="zoektermen4" placeholder="zoekterm 4">
-								</div>
-								<div class="col-md-12 col-xs-12 padding-top-10">
-									<input type="text" class="form-control" id="zoektermen5" placeholder="zoekterm 5">
-								</div>
-							</div>
-						</form>
-						<div class="row">
-							<div class="col-md-4 col-xs-4 padding-top-10">
-								<h5 class="text-center">SEO</h5>
-							</div>
-							<div class="col-md-4 col-xs-4 padding-top-10">
-								<h5 class="text-center">Gemiddelde CPC</h5>
-							</div>
-							<div class="col-md-4 col-xs-4 padding-top-10">
-								<h5 class="text-center">Geschat zoekvolume</h5>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-4 col-xs-4">
-								<h5 class="text-center">Klik hier voor een uitgebreid SEO rapport</h5>
-							</div>
-							<div class="col-md-4 col-xs-4">
-								<h5 class="text-center">Gemiddeld CPC obv totaal zoekvolume: €1</h5>
-							</div>
-							<div class="col-md-4 col-xs-4">
-								<h5 class="text-center">Totaal geschat zoekvolume: 0</h5>
-							</div>
-						</div>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">close</button>
-				</div>
-			</div>
-		</div>
-	</div> <!-- End Modal voorbeeld berekeningen -->
+				</div> <!-- End Modal voorbeeld berekeningen -->
 		
 			
 	<!-- omgekeerderoi form -->
