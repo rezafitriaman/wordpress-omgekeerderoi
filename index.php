@@ -276,7 +276,7 @@
 								<input type="text" class="form-control" id="gewenste" placeholder="100.000 euro" />
 							</div>
 							<div class="col-md-4 padding-top-10">
-								<label for="marge" class="control-label">Marge:</label>
+								<label for="marge" class="control-label">Marge</label>
 								<select id="marge" class="form-control">
 									<option value="text">> 15%</option>
 									<option value="text">< 15%</option>
