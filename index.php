@@ -1,40 +1,32 @@
 <?php get_header(); ?>
-	<!-- jumbotron -->
-	<div class="jumbotron" id="home">
-		<div class="container text-center">		
-			<h1 class="padding-top-80 name"><?php bloginfo( 'name' ); ?></h1>
-				<p class="intro-text"><?php bloginfo( 'description'  ); ?></p>
-				<button type="button" class="btn btn-primary intro-text center" data-toggle="modal" data-target="#mymodal">
-					Voorbeeld Berekening
-				</button>
-						
-			<!-- moebiel nummer en emailadres -->		
-			<div class="container text-center">
-				<div class="row bottom-message-section">
-					<div class="col-md-6 padding-top-10">
-						<h5 class="intro-text"><span class="glyphicon glyphicon-phone"></span> 06-15832122</h5>
-					</div>
-					<div class="col-md-6 padding-top-10">
-						<h5 class="intro-text"><span class="glyphicon glyphicon-envelope"></span> info@scheltemeinsma.nl</h5>
-					</div>
-				</div>
+		<!-- header -->
+	<header style="background-image: url('http://www.rezafitriaman.nl/wp-content/uploads/2016/01/bg_header-1.jpg')" id="home">
+        <div class="intro-content">
+            <img src="http://www.rezafitriaman.nl/wp-content/uploads/2016/01/brand.png" class="img-responsive img-centered" alt="">
+            <div class="brand-name"><?php bloginfo( 'name' ); ?></div>
+            <hr class="colored">
+            <div class="brand-name-subtext"><?php bloginfo( 'description'  ); ?></div>
+            <div class="padding-top-80">
+            <button type="button" class="btn btn-warning input-lg intro-text center" data-toggle="modal" data-target="#mymodal">
+				Voorbeeld Berekening
+			</button>
 			</div>
-		</div>
-	</div>			
+        </div>
+    </header>		
 				
 	<!-- Modal voorbeeld berekeningen -->		
-	<div class="modal fade woorden" id="mymodal">
+				<div class="modal fade woorden" id="mymodal">
 					<div class="modal-dialog">
 						<div class="modal-content">
 							<div class="modal-header">
-								<h3 class="text-center">Bereken Return on Investment van webshop.nl</h3>
+								<h3 class="text-center bold">Bereken Return on Investment van webshop.nl</h3>
 							</div>
 							<div class="modal-body">
 								<div class="panel panel-default">
-									<h3 class="text-center">100.000 Bezoekers</h3>
+									<h3 class="text-center bold">100.000 Bezoekers</h3>
 								</div>
 									<div class="text-center">
-										<span class="glyphicon glyphicon-arrow-down"></span>
+										<span class="glyphicon glyphicon-arrow-down color-blue"></span>
 									</div>
 									<div class="panel-body">
 									<!-- form voorbeeld-->
@@ -68,27 +60,27 @@
 										</form>	
 												<div class="row text-center">
 													<div class="col-md-12">
-														<span class="glyphicon glyphicon-arrow-down"></span>
+														<span class="glyphicon glyphicon-arrow-down color-blue"></span>
 													</div>
 												</div>
 												<div class="row text-center">
 													<div class="col-md-12">
-														<h5>Betaald verkeer is 35% Adwords + 10% links <h4>(Samen 45%)</h4></h5>
+														<h5>Betaald verkeer is 35% Adwords + 10% links <h4 class="bold">(Samen 45%)</h4></h5>
 													</div>
 												</div>
 												<div class="row text-center">
 													<div class="col-md-12">
-														<span class="glyphicon glyphicon-arrow-down"></span>
+														<span class="glyphicon glyphicon-arrow-down color-blue"></span>
 													</div>
 												</div>
 												<div class="row text-center">
 													<div class="col-md-12">
-														<h5>45% van 100.000 bezoekers is <h4>45.000 bezoekers kopen</h4></h5>
+														<h5>45% van 100.000 bezoekers is <h4 class="bold">45.000 bezoekers kopen</h4></h5>
 													</div>
 												</div>
 												<div class="row text-center">
 													<div class="col-md-12">
-														<span class="glyphicon glyphicon-arrow-down"></span>
+														<span class="glyphicon glyphicon-arrow-down color-orange"></span>
 													</div>
 												</div>
 												<div class="row text-center">
@@ -112,7 +104,7 @@
 												</div>
 											</div>
 										</form>	
-										<div class="container text-center">
+										<div class="row text-center">
 											<div class="col-md-12 col-xs-12">
 												<span class="glyphicon glyphicon-arrow-down"></span>
 											</div>
@@ -127,14 +119,13 @@
 												</div>
 											</div>
 										</form>
-										<div class="container text-center">
-											<div class="row">
-												<div class="col-md-6 col-xs-6">
-													<span class="glyphicon glyphicon-arrow-down"></span>
-												</div>
-												<div class="col-md-6 col-xs-6">
+										<div class="row text-center">
+											<div class="col-md-6 col-xs-6">
+												<span class="glyphicon glyphicon-arrow-down"></span>
+											</div>
+											<div class="col-md-6 col-xs-6">
 													
-												</div>
+												
 											</div>
 										</div>
 										<form>
@@ -147,14 +138,12 @@
 												</div>
 											</div>
 										</form>
-										<div class="container text-center">
-											<div class="row">
-												<div class="col-md-6 col-xs-6">
-													<span class="glyphicon glyphicon-arrow-down"></span>
-												</div>
-												<div class="col-md-6 col-xs-6">
+										<div class="row text-center">
+											<div class="col-md-6 col-xs-6">
+												<span class="glyphicon glyphicon-arrow-down"></span>
+											</div>
+											<div class="col-md-6 col-xs-6">
 													
-												</div>
 											</div>
 										</div>	
 										<form>
@@ -180,22 +169,22 @@
 												</div>
 											</div>
 										</form>	
-										<div class="container text-center">
+										<div class="row text-center">
 											<div class="col-md-12 col-xs-12">
-												<span class="glyphicon glyphicon-arrow-down"></span>
+												<span class="glyphicon glyphicon-arrow-down color-orange"></span>
 											</div>
 										</div>
 										<div class="row text-center">
 											<div class="col-md-12">
-												<h5>Gemiddelde CPC is € 7.500 / 45.000 bezoekers. <h4>€ 0,17 budget per bezoek </h4></h5>
+												<h5>Gemiddelde CPC is € 7.500 / 45.000 bezoekers. <h4 class="bold">€ 0,17 budget per bezoek </h4></h5>
 												<h5>De ingevoerde zoektermen hebben een gemiddeld CPC van €1</h5>
 												<h5 class="color-red"><span class="glyphicon glyphicon-remove-circle"></span> Uw budget is dus ontoereikend.</h5>
 											</div>
 										</div>
 									</div>
 									<div class="text-center">
-										<h4>Analyse zoektermen</h4>
-										<h6>Google KeyWord Tool<h6>
+										<h3 class="bold">Analyse zoektermen</h3>
+										<h4>Google KeyWord Tool<h4>
 									</div>
 									<form>
 										<div class="form-group text-center">
@@ -249,7 +238,7 @@
 							</div>
 						</div>
 					</div>
-				</div> <!-- End Modal voorbeeld berekeningen -->
+				</div><!-- End Modal voorbeeld berekeningen -->
 		
 			
 	<!-- omgekeerderoi form -->
@@ -266,9 +255,10 @@
 			?>
 			<div class="panel-heading"> 
 				<h2 class="text-center name"><?php the_title();?></h2>
-			</div>
+			
 			<?php the_content();?>
-			<!--<div class="panel-body">
+			<!--</div>
+			<div class="panel-body">
 					<form>
 						<div class="row padding-top-10 woorden">
 							<div class="col-md-4 padding-top-10">
@@ -372,20 +362,22 @@
 	</div> <!-- End omgekeerderoi form -->
 					
 	<!-- Zij gingen u voor -->
-	<div class="container text-center col-md-12 padding-bottom-30">
-		<?php
-			$args = array(
-				'page_id' => '107',
-				);
+	<div class="bg-color-blue">	
+		<div class="container text-center col-md-12 padding-bottom-30 padding-top-40">
+			<?php
+				$args = array(
+					'page_id' => '107',
+					);
 			
-			$wp_query = new WP_Query( $args );
-				if ( $wp_query->have_posts() ) : while ( $wp_query->have_posts() ) : $wp_query->the_post(); 
+				$wp_query = new WP_Query( $args );
+					if ( $wp_query->have_posts() ) : while ( $wp_query->have_posts() ) : $wp_query->the_post(); 
 			
-		?>
-		<h3 class="name"><?php the_title();?></h3>
-	</div>	
-	<div class="container text-center padding-bottom-80">
-		<div class="row">
+			?>
+		<h2 class="name color-white"><?php the_title();?></h2>
+			<hr class="colored">
+		</div>	
+			<div class="container text-center padding-bottom-80">
+				<div class="row">
 			<?php the_content();?>
 			<!--<div class="col-md-3 col-sm-2">
 				<p class="woorden">wilsumerberge.nl</p>
@@ -402,13 +394,33 @@
 			<div class="col-md-2 col-sm-2">
 				<p class="woorden">shoping.com</p>
 			</div>-->
-		</div>
-	</div> <!-- End Zij gingen u voor -->
-		<?php endwhile; endif; ?>
-	<?php wp_reset_query(); ?>
-					
+				</div>
+			</div>
+			<?php endwhile; endif; ?>
+				<?php wp_reset_query(); ?> 
+	</div><!-- End Zij gingen u voor -->
+			
+	<!-- nieuwsbrief-->
+	<div class="bg-color-orange">				
+		<div class="container">
+			<div class="row padding-top-40">
+				<div class="col-md-12 col-sm-12 text-center">
+					<h4 class="name">aanmelden voor nieuwsbrief</h4>
+				</div>
+			</div>
+				<div class="container col-md-12 col-sm-12 text-center padding-bottom-80 ">
+				<form class="form-inline padding-top-15" role="form">
+    				<div class="form-group">
+            			<input type="email" class="form-control input-lg margin-right-10" id="email" placeholder="email adres">
+    				</div>
+       				<button type="submit" class="btn btn-success input-lg">Aanmelden</button>
+  				</form>
+  				</div>		
+			</div>
+	</div>
+
 	<!-- Andere tools -->
-	<div class="bg-color-green padding-bottom-80">
+	<div class="padding-top-80" style="background-image: url('http://www.rezafitriaman.nl/wp-content/uploads/2016/01/bg_header-1.jpg'); background-attachment:fixed;">
 		<?php
 			$args = array(
 				'page_id' => '121',
@@ -418,7 +430,7 @@
 				if ( $wp_query->have_posts() ) : while ( $wp_query->have_posts() ) : $wp_query->the_post(); 
 			
 		?>
-		<div class="container padding-top-80">
+		<div class="container padding-top-80 padding-bottom-80">
 			<div class="row">
 			<?php the_content();?>
 			<!--<div class="col-md-4 col-sm-4">
@@ -445,7 +457,7 @@
 	<!-- Info Schelte -->		
 	<div class="bg-color-dark padding-bottom-80" id="schelte-meinsma">					
 		<div class="container text-center padding-top-80">
-			<h1 class="color-white name woorden">SCHELTE MEINSMA</h1>
+			<h2 class="color-white name">SCHELTE MEINSMA</h2>
 			<p class="color-white woorden">Strategisch online marketeer</p>
 		</div>					
 		<div class="container padding-top-80"><!-- foto en gegevens linkerkant -->
@@ -497,10 +509,10 @@
 	</div> <!-- End Info Schelte -->
 
 	<!-- contact mij form -->	
-	<div class="padding-bottom-80" id="vragen">
+	<div class="padding-bottom-80 bg-color-white" id="vragen">
 		<div class="container text-center padding-top-80">
-			<h1 class="name">VRAGEN</h1>
-			<p class="woorden">Stuur mij e-mail</p>
+			<h1 class="name color-blue">VRAGEN</h1>
+			<p class="woorden color-blue">Stuur mij e-mail</p>
 		</div>
 		<div class="container padding-top-40">
 			<form rol="form">

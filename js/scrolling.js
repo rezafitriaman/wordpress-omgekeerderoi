@@ -23,3 +23,30 @@ var jq=jQuery.noConflict();
 		});
     }
 	})(jQuery);
+
+  // Scrollspy: Highlights the navigation menu items while scrolling.
+var jq=jQuery.noConflict();
+(function ($){
+    {  
+$('body').scrollspy({
+    target: '.navbar-fixed-top'
+})
+ }
+  })(jQuery);
+
+jQuery.noConflict();
+(function( $ ) {
+  $(function() {
+          $("[rel='tooltip']").tooltip();    
+ 
+    $('.thumbnail').hover(
+        function(){
+            $(this).find('.caption').slideDown(550); //.fadeIn(250)
+        },
+        function(){
+            $(this).find('.caption').slideUp(250); //.fadeOut(205)
+        }
+    ); 
+     });
+})(jQuery);
+

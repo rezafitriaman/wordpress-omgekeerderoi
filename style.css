@@ -12,27 +12,217 @@
 }
 
 /* line 5, ../scss/layouts/_color.scss */
-.bg-color-green {
-  background-color: lightgreen;
+.bg-image {
+  background: url("http://www.rezafitriaman.nl/wp-content/uploads/2016/01/bg_header.jpg") no-repeat center center fixed;
 }
 
 /* line 9, ../scss/layouts/_color.scss */
+.bg-color-blue {
+  background-color: #0a8fd5;
+}
+
+/* line 13, ../scss/layouts/_color.scss */
+.bg-color-white {
+  background-color: white;
+}
+
+/* line 17, ../scss/layouts/_color.scss */
+.bg-color-orange {
+  background-color: #E6AB43;
+}
+
+/* line 21, ../scss/layouts/_color.scss */
 .color-white {
   color: white;
 }
 
-/* line 12, ../scss/layouts/_color.scss */
+/* line 25, ../scss/layouts/_color.scss */
 .color-red {
   color: red;
 }
 
-/* line 1, ../scss/layouts/_jumbotron.scss */
-.jumbotron {
-  background-color: lightblue;
-  background-attachment: fixed;
-  background-size: 100% auto;
-  margin-botom: 0px;
-  min-height: 500px;
+/* line 29, ../scss/layouts/_color.scss */
+.color-blue {
+  color: #0099cc;
+}
+
+/* line 33, ../scss/layouts/_color.scss */
+.color-orange {
+  color: #ff6600;
+}
+
+/* line 2, ../scss/layouts/_jumbotron.scss */
+html,
+body {
+  height: 100%;
+}
+
+/* line 6, ../scss/layouts/_jumbotron.scss */
+.img-centered {
+  margin: 0 auto;
+}
+
+/* line 11, ../scss/layouts/_jumbotron.scss */
+a {
+  color: #0a8fd5;
+}
+
+/* hr = streepjes lang  */
+/* line 17, ../scss/layouts/_jumbotron.scss */
+.colored {
+  height: 2px;
+  margin: 15px auto;
+  max-width: 100px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+/* line 25, ../scss/layouts/_jumbotron.scss */
+.colored {
+  border-color: #99cc66;
+}
+
+@media (min-width: 768px) {
+  /* line 30, ../scss/layouts/_jumbotron.scss */
+  .colored {
+    margin: 20px auto;
+    max-width: 200px;
+  }
+}
+/* effect navbar op pagina  */
+/* line 40, ../scss/layouts/_jumbotron.scss */
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  border-radius: 0;
+  color: #0a8fd5;
+  background-color: #fff;
+}
+
+/* line 48, ../scss/layouts/_jumbotron.scss */
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  opacity: 1;
+}
+
+/* line 52, ../scss/layouts/_jumbotron.scss */
+.navbar-inverse .navbar-nav li a {
+  color: #fff;
+}
+
+/* line 57, ../scss/layouts/_jumbotron.scss */
+.navbar-inverse .navbar-nav li a:hover {
+  opacity: .5;
+}
+
+@media (min-width: 768px) {
+  /* line 64, ../scss/layouts/_jumbotron.scss */
+  .navbar-inverse .navbar-nav > .active > a,
+  .navbar-inverse .navbar-nav > .active > a:hover,
+  .navbar-inverse .navbar-nav > .active > a:focus {
+    border-radius: 20px;
+  }
+
+  /* line 67, ../scss/layouts/_jumbotron.scss */
+  .navbar-fixed-top .navbar-brand:hover {
+    opacity: .5;
+  }
+}
+/* line 72, ../scss/layouts/_jumbotron.scss */
+.navbar .navbar-nav li a:focus {
+  outline: 0;
+}
+
+/* line 76, ../scss/layouts/_jumbotron.scss */
+.navbar-brand:focus {
+  outline: 0 !important;
+}
+
+/* line 80, ../scss/layouts/_jumbotron.scss */
+.width-navbar-brand {
+  width: 200px;
+}
+
+/* line 84, ../scss/layouts/_jumbotron.scss */
+.tools_focus:focus {
+  outline: 0 !important;
+}
+
+/* Alles over header  */
+/* line 89, ../scss/layouts/_jumbotron.scss */
+header {
+  display: block;
+  position: relative;
+  width: auto;
+  height: auto;
+  padding: 100px 0;
+  background: no-repeat center center;
+  background-attachment: scroll;
+  /* background image 100%*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+/* line 104, ../scss/layouts/_jumbotron.scss */
+.intro-content {
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+
+/* line 110, ../scss/layouts/_jumbotron.scss */
+header img {
+  max-height: 150px;
+  max-width: 150px;
+}
+
+@media (min-width: 768px) {
+  /* line 116, ../scss/layouts/_jumbotron.scss */
+  header {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background-attachment: scroll;
+  }
+
+  /* line 123, ../scss/layouts/_jumbotron.scss */
+  header .intro-content {
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    transform: translate(-50%, -50%);
+  }
+}
+/* background image fixed = scroll niet mee  */
+@media (min-width: 1025px) {
+  /* line 136, ../scss/layouts/_jumbotron.scss */
+  header {
+    background-attachment: fixed;
+  }
+}
+/* line 142, ../scss/layouts/_jumbotron.scss */
+.thumbnail {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 147, ../scss/layouts/_jumbotron.scss */
+.caption {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: rgba(66, 139, 202, 0.75);
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+  display: none;
+  text-align: center;
+  color: #fff !important;
+  z-index: 2;
 }
 
 /* line 1, ../scss/layouts/_margin.scss */
@@ -63,98 +253,168 @@
   float: none !important;
 }
 
+/* line 24, ../scss/layouts/_margin.scss */
+.margin-right-10 {
+  margin-right: 10px;
+}
+
 /* line 1, ../scss/layouts/_padding.scss */
+.padding-top-5 {
+  padding-top: 5px;
+}
+
+/* line 4, ../scss/layouts/_padding.scss */
 .padding-top-10 {
   padding-top: 10px;
 }
 
-/* line 5, ../scss/layouts/_padding.scss */
+/* line 8, ../scss/layouts/_padding.scss */
 .padding-top-15 {
   padding-top: 15px;
 }
 
-/* line 9, ../scss/layouts/_padding.scss */
+/* line 12, ../scss/layouts/_padding.scss */
 .padding-top-80 {
   padding-top: 80px;
 }
 
-/* line 13, ../scss/layouts/_padding.scss */
+/* line 16, ../scss/layouts/_padding.scss */
 .padding-top-40 {
   padding-top: 40px;
 }
 
-/* line 17, ../scss/layouts/_padding.scss */
+/* line 20, ../scss/layouts/_padding.scss */
 .padding-bottom-50 {
   padding-bottom: 50px;
 }
 
-/* line 21, ../scss/layouts/_padding.scss */
+/* line 24, ../scss/layouts/_padding.scss */
 .padding-bottom-30 {
   padding-bottom: 30px;
 }
 
-/* line 25, ../scss/layouts/_padding.scss */
+/* line 28, ../scss/layouts/_padding.scss */
 .padding-bottom-80 {
-  padding-bottom: 80px;
+  padding-bottom: 80px !important;
+}
+
+/* line 32, ../scss/layouts/_padding.scss */
+.padding-bottom-20 {
+  padding-bottom: 20px;
+}
+
+/* line 36, ../scss/layouts/_padding.scss */
+.padding-bottom-10 {
+  padding-bottom: 20px;
 }
 
 @media all and (max-width: 1200px) {
   /* screen size until 1200px */
-  /* line 5, ../scss/layouts/_typografie.scss */
+  /* line 2, ../scss/layouts/_typografie.scss */
   body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
     font-size: 1.3em;
     /* 1.5x default size */
   }
 }
 @media all and (max-width: 1000px) {
   /* screen size until 1000px */
-  /* line 10, ../scss/layouts/_typografie.scss */
+  /* line 9, ../scss/layouts/_typografie.scss */
   body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
     font-size: 1.2em;
     /* 1.2x default size */
   }
 }
 @media all and (max-width: 500px) {
   /* screen size until 500px */
-  /* line 15, ../scss/layouts/_typografie.scss */
+  /* line 16, ../scss/layouts/_typografie.scss */
   body {
-    font-size: 1.0em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
     /* 0.8x default size */
   }
 }
-/* line 20, ../scss/layouts/_typografie.scss */
+/* line 23, ../scss/layouts/_typografie.scss */
 .name {
   display: block;
   text-transform: uppercase;
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 2em;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
 }
 
-/* line 28, ../scss/layouts/_typografie.scss */
+/* line 30, ../scss/layouts/_typografie.scss */
 .tools {
   display: block;
   text-transform: uppercase;
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1em;
-  font-weight: 500;
+  font-weight: 400;
 }
 
-/* line 36, ../scss/layouts/_typografie.scss */
+/* line 38, ../scss/layouts/_typografie.scss */
 .intro-text {
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.25em;
-  font-weight: 300;
+  font-weight: 400;
 }
 
-/* line 42, ../scss/layouts/_typografie.scss */
+/* line 44, ../scss/layouts/_typografie.scss */
 .navbar {
   text-transform: uppercase;
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
 }
 
-/* line 48, ../scss/layouts/_typografie.scss */
+/* line 50, ../scss/layouts/_typografie.scss */
 .woorden {
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+/* line 55, ../scss/layouts/_typografie.scss */
+.brand-name-subtext {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+/* line 61, ../scss/layouts/_typografie.scss */
+.brand-name {
+  margin-top: 15px;
+  text-transform: uppercase;
+  font-size: 45px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  line-height: 55px;
+}
+
+/* line 70, ../scss/layouts/_typografie.scss */
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+/* line 75, ../scss/layouts/_typografie.scss */
+.caption {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+/* line 80, ../scss/layouts/_typografie.scss */
+h3 {
+  display: block;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+/* line 87, ../scss/layouts/_typografie.scss */
+.bold {
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
 }
